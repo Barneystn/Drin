@@ -5,7 +5,11 @@ workers_dev = true
 route = ""
 zone_id = ""
 usage_model = ""
-compatibility_date = "2021-10-01"
+compatibility_date = "2023-06-01"
+
+[build]
+command = "npm run build"
+output_dir = "out"
 
 [site]
 bucket = "./out"

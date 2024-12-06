@@ -5,4 +5,8 @@ module.exports = {
   images: {
     unoptimized: true
   },
+  // این خط را اضافه کنید تا از خطاهای مربوط به استفاده از `getInitialProps` جلوگیری شود
+  experimental: {
+    esmExternals: false
+  }
 }
