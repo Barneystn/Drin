@@ -1,0 +1,15 @@
+name = "dropbox-index"
+type = "webpack"
+account_id = "your-account-id"
+workers_dev = true
+route = ""
+zone_id = ""
+usage_model = ""
+compatibility_date = "2021-10-01"
+
+[site]
+bucket = "./out"
+entry-point = "workers-site"
+
+[env.production]
+name = "dropbox-index-prod"
